@@ -125,7 +125,7 @@ ul#nav li:nth-child(4) { margin: 0; }
 .sPubSum {
   padding-left: 20px;
   color: #606060;
-  font-size: 13px;
+  /*font-size: 13px;*/
   float: none;
 }
 
