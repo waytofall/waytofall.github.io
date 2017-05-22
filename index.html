@@ -79,7 +79,7 @@ I am currently a 1st year PhD student in the CSE department of OSU. I am now loo
 </p>
 
 <p>
-I received a B.E. degree in Software Engineering from Beijing Institute of Technology, China, and a M.E. degree in Software Engineering from Tsinghua University, China. My master's thesis (<a href="https://waytofall.github.io/tao-master.pdf">here</a> for Chinese version) is concerning on-the-fly simplification and adaptive extraction of iso-surfaces from volume datasets.
+I received a B.E. degree in Software Engineering from Beijing Institute of Technology, China, and a M.E. degree in Software Engineering from Tsinghua University, China. My master's thesis is concerning on-the-fly simplification and adaptive extraction of iso-surfaces from volume datasets.
 </p>
 
 <p>
@@ -108,7 +108,7 @@ After I finished my Master's degree, I went to work for 2 companies, Baidu and V
 
 <span>CSE2111: Spreadsheets &amp; DBs, Lab Instructor, Spring 2017 </span> </br>
 <span>CSE2321: Discrete Structures, Grader, Autumn 2016 </span></br>
-<span>CSE2321: Algorithms, Grader, Autumn 2016 </span>
+<span>CSE2331: Data Structures &amp; Algorithms, Grader, Autumn 2016 </span>
 
 	</div>
 	<br class="clear">
@@ -123,7 +123,33 @@ After I finished my Master's degree, I went to work for 2 companies, Baidu and V
 <h1>Publications</h1>
 <hr class="thin">
 
-<p>Tao Hou and Li Chen. <a href="https://waytofall.github.io/otf-jov.pdf">On-the-fly simplification of large iso-surfaces with per-cube vertex modifiability detection.</a> Journal of Visualization.</p>
+<div class="sPubItem">
+    <p> Tao Hou. A Research on Massive Mesh Simplification and Parallel Iso-surface Extraction (<a href="https://waytofall.github.io/tao-master.pdf">Chinese version</a>). Master's thesis, Tsinghua University. 2013.</p>
+
+    <div class="sPubSum">
+    <p>
+    Includes 3 algorithms designed on my own:
+    </p>
+    <ul>
+        <li>
+          <div class="sPubText">A cutting simplification algorithm based on vertex partition for out-of-core meshes. The in-core simplification utilizes iterative edge contraction with QEM. The vertex partition needs not a second process on the boundary areas, which was essential for some methods partitioning the meshes by triangles.</div>
+          <div class="sPubImg"><img src="./img/cut-simp.png"></div>
+        </li>
+        <li>
+          <div class="sPubText">An on-the-fly simplification algorithm for large iso-surfaces being extracted from volume datasets, utilizing the traversal sequence of Marching Cubes to determine when iso-surface facets extracted can be contracted. A stream simplification is used. </div>
+          <div class="sPubImg"><img src="./img/otf.png"></div>
+        </li>
+        <li>
+          <div class="sPubText">A parallel adaptive iso-surface extraction algorithm using a simplicial partition method. A novel parallel octree data structure is designed, providing the whole set of octree building and traversal algorithms for minimal cube/edge/face searching and extraction. </div>
+          <div class="sPubImg"><img src="./img/para-oct.png"></div>
+        </li>
+    </ul>
+    </div>
+</div>
+
+<div class="sPubItem">
+  <p>Tao Hou and Li Chen. <a href="https://waytofall.github.io/otf-jov.pdf">On-the-fly simplification of large iso-surfaces with per-cube vertex modifiability detection.</a> Journal of Visualization 19.4 (2016): 715-726.</p>
+</div>
 
 <div id="bottombar"></div>
 
