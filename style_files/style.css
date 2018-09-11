@@ -60,7 +60,7 @@ hr.thin {
   margin: 0 0 20px 0;
 }
 
-p#title { float: left; margin: 4px 0 4px 0; }
+/*p#title { float: left; margin: 4px 0 4px 0; }*/
 
 ul#nav {
   float: right;
@@ -79,24 +79,36 @@ ul#nav li:nth-child(4) { margin: 0; }*/
 	color: #000;
 }
 
-#fixedimg {
-  /*float: right;*/
-  /*margin-top: 8px;*/
+
+
+#title #name {
+  float: left; 
+  font-size: 23px;
 }
 
-/* Section container */
-
-#img-div {
-  float:left;
+#title img {
+  float: left; 
+  height: 30px; 
+  padding-left: 20px; 
+  padding-top: 10px; 
 }
 
-#pers-info {
+#description {
+  height: 155px;
+}
+
+#description img {
+  float: left;
+  padding-top: 40px
+}
+
+#description #pers-info {
   font-style: italic; 
   font-size: 14px;
-  float:left; 
-  padding-top:35px; 
-  padding-left:30px; 
-  padding-right:30px
+  float: left; 
+  padding-top: 29px; 
+  padding-left: 30px; 
+  padding-right: 30px
 }
 
 .section {
