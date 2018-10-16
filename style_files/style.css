@@ -1,15 +1,19 @@
-* {margin: 0; padding: 0; border: 0; outline: 0;}
+* {
+  margin: 0; padding: 0; border: 0; outline: 0;
+}
 
 body {
-  font-family: "Times New Roman", Times, serif;
+  /*font-family: "Times New Roman", Times, serif;*/
 	/*font-family: Helvetica, Arial, Verdana, sans-serif; */
   /*font-family: Consolas, Monaco, monospace;*/
+  font-family: "Lucida Sans Unicode", "Lucida Grande", Arial, sans-serif;
 	background-color:#E8E9E9;
-  font-size: 16px;
+  font-size: 14px;
 }
 
 h1 { 
-  font-family: Helvetica, Arial, Verdana, sans-serif; 
+  /*font-family: Helvetica, Arial, Verdana, sans-serif; */
+  /*font-family: "Lucida Sans Unicode", "Lucida Grande", Arial, sans-serif;*/
   font-size: 16px; 
   /*font-weight: bold; */
   font-weight: normal; 
@@ -42,7 +46,6 @@ hr.thin {
 }
 
 #header {
-  font-family: Helvetica, Arial, Verdana, sans-serif; 
 	position: absolute;
 	/*height: 56px;*/
 	z-index: 1000;
@@ -51,7 +54,6 @@ hr.thin {
 	min-width: 600px;
 	background: #E8E9E9;
   padding-top: 40px;
-  font-size: 21px;
 }
 
 #topbar {
@@ -82,8 +84,11 @@ ul#nav li:nth-child(4) { margin: 0; }*/
 
 
 #title #name {
+  /*font-family: Helvetica, Arial, Verdana, sans-serif; */
+  /*font-family: "Times New Roman", Times, serif;*/
+  /*font-family: "Lucida Sans Unicode", "Lucida Grande", Arial, sans-serif;*/
   float: left; 
-  font-size: 23px;
+  font-size: 20px;
 }
 
 #title img {
@@ -103,6 +108,7 @@ ul#nav li:nth-child(4) { margin: 0; }*/
 }
 
 #description #pers-info {
+  font-family: "Times New Roman", Times, serif;
   font-style: italic; 
   font-size: 14px;
   float: left; 
